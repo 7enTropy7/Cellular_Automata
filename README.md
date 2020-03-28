@@ -1,5 +1,5 @@
 [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
-
+[![forthebadge](https://forthebadge.com/images/badges/approved-by-7enTropy7.svg)](https://forthebadge.com)
 # Cellular_Automata
 
 A cellular automaton is a collection of "colored" cells on a grid of specified shape that evolves through a number of discrete time steps according to a set of rules based on the states of neighboring cells. The rules are then applied iteratively for as many time steps as desired.
