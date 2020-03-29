@@ -50,18 +50,6 @@ function mousePressed() {
     }
 }
 
-function setup(){
-    createCanvas(1820,800);
-    frameRate(fr);
-    cols = width/res;
-    rows = height/res;
-    apocalypse();
-    let simulate_button = createButton("Simulate");
-    simulate_button.mousePressed(simulate);
-    let reset_button = createButton("Reset");
-    reset_button.mousePressed(reset_world);
-}
-
 function reset_world(){
     flag = 0;
 }
@@ -96,6 +84,18 @@ function count_alive_neighbors(grid,x,y){
     }
     sum -= grid[x][y];
     return sum;
+}
+
+function setup(){
+    createCanvas(1820,800);
+    frameRate(fr);
+    cols = width/res;
+    rows = height/res;
+    apocalypse();
+    let simulate_button = createButton("Simulate");
+    simulate_button.mousePressed(simulate);
+    let reset_button = createButton("Reset");
+    reset_button.mousePressed(reset_world);
 }
 
 function draw(){
