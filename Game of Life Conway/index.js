@@ -35,6 +35,15 @@ function setup(){
     }
 }
 
+function mousePressed() {
+    world = initialize_world(rows,cols);
+    for(let i=0;i<cols;i++){
+        for(let j=0;j<rows;j++){
+            world[i][j] = floor(random(2));
+        }    
+    }
+}
+
 function draw(){
     
     background(0);
