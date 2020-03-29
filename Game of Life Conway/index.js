@@ -27,15 +27,12 @@ function setup(){
     createCanvas(1820,840);
     cols = width/res;
     rows = height/res;
-    world = initialize_world(rows,cols);
-    for(let i=0;i<cols;i++){
-        for(let j=0;j<rows;j++){
-            world[i][j] = floor(random(2));
-        }    
-    }
+    reset_sketch();
+    let button = createButton("Reset");
+    button.mousePressed(reset_sketch);
 }
 
-function mousePressed() {
+function reset_sketch() {
     world = initialize_world(rows,cols);
     for(let i=0;i<cols;i++){
         for(let j=0;j<rows;j++){
