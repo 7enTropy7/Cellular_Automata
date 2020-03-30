@@ -19,7 +19,7 @@ The game is a zero-player game, meaning that its evolution is determined by its 
 
 This repository contains: 
 - [x] Interactive mode where you can initialize your own population on a grid. 
-- [x] Randomized population initialization mode.
+- [x] Randomized population mode.
 
 ### Rules
 - Any live cell with fewer than two live neighbours dies, as if by underpopulation.
