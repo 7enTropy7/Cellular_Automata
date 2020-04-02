@@ -74,7 +74,8 @@ Rule 30 is a Class III rule, displaying aperiodic, chaotic behaviour. This rule 
 
 ### Output
 
-![rule_30](https://user-images.githubusercontent.com/36446402/78289484-e4c92b80-753f-11ea-8f32-d3d01ee0de92.png)
+![r30](https://user-images.githubusercontent.com/36446402/78291285-c44ea080-7542-11ea-8398-5e595086b99c.png)
+
 
 ___
 ## Author
