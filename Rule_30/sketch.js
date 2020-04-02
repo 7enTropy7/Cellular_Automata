@@ -23,7 +23,7 @@ function XOR_Gate(a,b) {
 
 function setup(){
     createCanvas(1800,840);
-    res = 4;
+    res = 10;
 	cols = floor(width / res);
     rows = floor(height / res);
     world = initialize_world(rows,cols);
