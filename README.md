@@ -53,7 +53,30 @@ Langton's ant is a two-dimensional universal Turing machine with a very simple s
 ![Langton](https://user-images.githubusercontent.com/36446402/77835826-a5cd5b80-7176-11ea-82db-6b953cd915db.png)
 
 ___
+___
 
+## Rule-30
+
+Rule 30 is a Class III rule, displaying aperiodic, chaotic behaviour. This rule is of particular interest because it produces complex, seemingly random patterns from simple, well-defined rules.
+
+### Rule set
+
+| Current Pattern  | New state for center cell |
+| ---      | ---       |
+| 000 | 0 |          
+| 001 | 1 | 
+| 010 | 1 |
+| 011 | 1 |
+| 100 | 1 |
+| 101 | 0 |
+| 110 | 0 |
+| 111 | 0 |
+
+### Output
+
+![rule_30](https://user-images.githubusercontent.com/36446402/78289484-e4c92b80-753f-11ea-8f32-d3d01ee0de92.png)
+
+___
 ## Author
 [![LinkedIn-profile](https://img.shields.io/badge/LinkedIn-Profile-teal.svg)](https://www.linkedin.com/in/unnikrishnan-menon-aa013415a/) [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://www.quora.com/profile/Unnikrishnan-Menon-5)
 * [**Unnikrishnan Menon**](https://github.com/7enTropy7) 
